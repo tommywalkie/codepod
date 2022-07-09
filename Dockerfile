@@ -38,8 +38,7 @@ RUN code-server --install-extension ./extensions/antfu.theme-vitesse-0.5.0.vsix 
     code-server --install-extension ./extensions/helgardrichard.helium-icon-theme-1.0.0.vsix
 
 # Fix permissions for code-server
-RUN sudo chown -R coder:coder /home/coder/.local
-RUN sudo chown -R coder:coder /home/coder/data
+RUN sudo chown -R coder:coder /home/coder
 
 SHELL ["/bin/bash", "-c"]
 
