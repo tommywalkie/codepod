@@ -1,0 +1,33 @@
+{
+  "editor.largeFileOptimizations": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.detectIndentation": false,
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.fontSize": 15,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.useNewTransformation": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "svelte.plugin.svelte.compilerWarnings": {
+    "css-unused-selector": "ignore"
+  },
+  "workbench.colorTheme": "Vitesse Dark Soft",
+  "workbench.iconTheme": "helium-icon-theme",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.formatOnSave": true
+  }
+}
